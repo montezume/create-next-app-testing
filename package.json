@@ -1,15 +1,25 @@
 {
   "name": "formik-rtl",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
+    "formik": "^2.1.4",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.20.0",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
   }
 }

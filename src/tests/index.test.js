@@ -5,7 +5,7 @@ describe("App", () => {
   it("renders without crashing", () => {
     render(<App />);
     expect(
-      screen.getByRole("heading", { name: "Welcome to Next.js!" })
+      screen.getByRole("heading", { name: "Not Welcome to Next.js!" })
     ).toBeInTheDocument();
   });
 });
